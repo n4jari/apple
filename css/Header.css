@@ -1,0 +1,46 @@
+header {
+  font-size: 1vw;
+  text-align: center;
+}
+
+header div:first-child {
+  padding: 1vw 0;
+  color: #f9f9f9;
+  background: royalblue;
+}
+
+header div:last-child {
+  padding: 1vw 0;
+  background: #f9f9f9;
+}
+
+header div:last-child span {
+  color: royalblue;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    header {
+      font-size: 1.5vw;
+    }
+  
+    header div:first-child {
+      padding: 1.5vw 0;
+    }
+  
+    header div:last-child {
+      padding: 1.5vw 0;
+    }
+  }
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 3vw;
+  }
+
+  header div:first-child {
+    padding: 3vw 0;
+  }
+
+  header div:last-child {
+    padding: 3vw 0;
+  }
+}

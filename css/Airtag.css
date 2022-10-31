@@ -1,0 +1,103 @@
+.airtag .container {
+  background-color: #f9f9f9;
+  width: 50%;
+  height: 45vw;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5vw 0;
+}
+
+.airtag .container .title {
+  text-align: center;
+  line-height: 3.5vw;
+  animation: picOpacity 2s ease-in-out;
+}
+.airtag .container .title h2 {
+  color: #222;
+  font-size: 4vw;
+}
+
+.airtag .container .title b {
+  color: #333;
+  font-size: 1.5vw;
+}
+
+.airtag .container .title p {
+  color: #999;
+  font-size: 1.3vw;
+}
+
+.airtag .container .title a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  margin: 0 1vw;
+  color: royalblue;
+}
+.airtag .container .title a:hover {
+  text-decoration: underline;
+}
+.airtag .container img {
+  width: 15vw;
+  margin-top: 3vw;
+  animation: picOpacity 2s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+  .airtag .container {
+    height: 60vw;
+  }
+
+  .airtag .container .title {
+    line-height: 5vw;
+  }
+  .airtag .container .title h2 {
+    font-size: 6vw;
+  }
+
+  .airtag .container .title b {
+    font-size: 2vw;
+  }
+
+  .airtag .container .title p {
+    font-size: 1.8vw;
+  }
+
+  .airtag .container .title a {
+    font-size: 1.8vw;
+    margin: 0 1.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .airtag .container {
+    width: 100%;
+    height: 120vw;
+  }
+
+  .airtag .container .title {
+    line-height: 10vw;
+  }
+  .airtag .container .title h2 {
+    font-size: 10vw;
+  }
+
+  .airtag .container .title b {
+    font-size: 5vw;
+  }
+
+  .airtag .container .title p {
+    font-size: 4vw;
+  }
+
+  .airtag .container .title a {
+    font-size: 3.5vw;
+    margin: 0 3vw;
+  }
+  .airtag .container img {
+    width: 35vw;
+    margin-top: 5vw;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/apple/static/css/main.f382c39d.css",
+    "main.js": "/apple/static/js/main.d5da962c.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/apple/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/apple/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/apple/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/apple/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/apple/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/MyriadApple-Text.eot": "/apple/static/media/MyriadApple-Text.df3dae9cae7cf6d9bc9a.eot",
+    "static/media/MyriadApple-Text.ttf": "/apple/static/media/MyriadApple-Text.c650fc557e0331e945f5.ttf",
+    "static/media/MyriadApple-Text.woff": "/apple/static/media/MyriadApple-Text.f3baa0b782c691e0c33a.woff",
+    "static/media/MyriadApple-Text.woff2": "/apple/static/media/MyriadApple-Text.61c153257a0693f9ed59.woff2",
+    "index.html": "/apple/index.html",
+    "main.f382c39d.css.map": "/apple/static/css/main.f382c39d.css.map",
+    "main.d5da962c.js.map": "/apple/static/js/main.d5da962c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f382c39d.css",
+    "static/js/main.d5da962c.js"
+  ]
+}

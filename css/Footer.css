@@ -1,0 +1,209 @@
+.apple footer {
+  overflow: hidden;
+  bottom: 0;
+  max-width: 100%;
+  background-color: #000;
+  padding: 0 10vw;
+}
+
+.apple footer .description {
+  text-align: left;
+  line-height: 2vw;
+  font-size: 1vw;
+  color: #666;
+  padding: 2vw 0;
+  border-bottom: 1px solid #666;
+}
+
+.apple footer .list {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  width: 70vw;
+  margin: 1.5vw 0;
+}
+
+.apple footer .list nav ul {
+  list-style-type: none;
+}
+
+.apple footer .list nav ul li a {
+  font-size: 0.9vw;
+  display: block;
+  text-decoration: none;
+  color: #888;
+  text-align: left;
+  padding: 0.4vw 0;
+}
+.apple footer .list nav ul li a:hover {
+  opacity: 0.8;
+}
+
+.apple footer .list nav ul li a b {
+  color: #ccc;
+}
+
+.apple footer .responsive a:hover {
+  text-decoration: underline;
+  color: #bbb;
+}
+
+.apple footer .responsive b {
+  color: #ccc;
+}
+
+.apple footer .more {
+  text-align: left;
+  padding: 0.8vw 0;
+  color: #666;
+  font-size: 1vw;
+  border-bottom: 1px solid #666;
+}
+
+.apple footer .more a {
+  text-decoration: none;
+  font-size: 1vw;
+  color: cornflowerblue;
+}
+
+.apple footer .copyright {
+  text-transform: uppercase;
+  padding: 0.8vw 0;
+  color: #666;
+  font-size: 0.8vw;
+}
+.apple footer .copyright a {
+  color: #666;
+  text-decoration: none;
+}
+
+.apple footer .copyright a:hover {
+  text-decoration: underline;
+}
+
+.apple footer .copyright .privicyList {
+  color: #aaa;
+  margin-bottom: 1vw;
+}
+
+.apple footer .copyright .privicyList span a {
+  padding-right: 1.4vw;
+  font-size: 0.8vw;
+  text-decoration: none;
+  color: #aaa;
+  text-align: center;
+}
+
+.apple footer .copyright .privicyList span a:hover {
+  text-decoration: underline;
+  color: #ccc;
+}
+
+.usa {
+  text-align: none;
+  text-decoration: none;
+  color: #ccc;
+  float: right;
+}
+
+.usa:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .apple footer {
+    padding: 0 4vw;
+  }
+
+  .apple footer .description {
+    line-height: 3vw;
+    font-size: 1.4vw;
+    padding: 3vw 0;
+  }
+
+  .apple footer .list {
+    width: 90vw;
+    margin: 2vw 0;
+  }
+
+  .apple footer .list nav ul li a {
+    font-size: 1.4vw;
+    padding: 0.8vw 0;
+  }
+
+  .apple footer .more {
+    padding: 1.4vw 0;
+    font-size: 1.4vw;
+  }
+
+  .apple footer .more a {
+    font-size: 1.4vw;
+  }
+
+  .apple footer .copyright {
+    padding: 1.4vw 0;
+    font-size: 1.4vw;
+  }
+  .apple footer .copyright .privicyList {
+    margin-bottom: 1.4vw;
+  }
+
+  .apple footer .copyright .privicyList span a {
+    padding-right: 3vw;
+    font-size: 1.4vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .apple footer {
+    padding: 0 5vw;
+  }
+
+  .apple footer .description {
+    line-height: 5vw;
+    font-size: 3.5vw;
+    padding: 6vw 0;
+  }
+
+  .apple footer .list {
+    margin: 4vw 0;
+    display: block;
+    width: 100%;
+  }
+  .apple footer .list nav ul {
+    padding: 0 1vw;
+  }
+
+  .apple footer .list nav ul li {
+  }
+  .apple footer .list nav ul li a {
+    font-size: 3.5vw;
+    padding: 1.5vw;
+  }
+
+  .apple footer .more {
+    padding: 3vw 0;
+    font-size: 3vw;
+  }
+
+  .apple footer .more a {
+    font-size: 3vw;
+  }
+
+  .apple footer .copyright {
+    padding: 3vw 0;
+    font-size: 3vw;
+  }
+  .apple footer .copyright .privicyList {
+    margin-bottom: 3vw;
+  }
+
+  .apple footer .copyright .privicyList span a {
+    display: block;
+    text-align: left;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+  }
+  .usa {
+    margin-bottom: 3vw;
+  }
+}

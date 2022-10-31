@@ -1,0 +1,104 @@
+.env .container {
+  background-color: #111;
+  width: 50%;
+  height: 45vw;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5vw 0;
+}
+
+.env .container .title {
+  text-align: center;
+  line-height: 3.5vw;
+  animation: picOpacity 2s ease-in-out;
+}
+.env .container .title h2 {
+  color: #f9f9f9;
+  font-size: 4vw;
+}
+
+.env .container .title b {
+  color: #f1f1f1;
+  font-size: 1.5vw;
+}
+
+.env .container .title p {
+  color: #999;
+  font-size: 1.3vw;
+}
+
+.env .container .title a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  margin: 0 1vw;
+  color: #7eff7e;
+}
+.env .container .title a:hover {
+  text-decoration: underline;
+}
+.env .container img {
+  width: 20vw;
+  margin-top: 3vw;
+  animation: picOpacity 2s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+  .env .container {
+    height: 60vw;
+  }
+
+  .env .container .title {
+    line-height: 5vw;
+  }
+  .env .container .title h2 {
+    font-size: 6vw;
+  }
+
+  .env .container .title b {
+    font-size: 2vw;
+  }
+
+  .env .container .title p {
+    font-size: 1.8vw;
+  }
+
+  .env .container .title a {
+    font-size: 1.8vw;
+    margin: 0 1.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .env .container {
+    width: 100%;
+    height: 120vw;
+
+  }
+
+  .env .container .title {
+    line-height: 10vw;
+  }
+  .env .container .title h2 {
+    font-size: 10vw;
+  }
+
+  .env .container .title b {
+    font-size: 5vw;
+  }
+
+  .env .container .title p {
+    font-size: 4vw;
+  }
+
+  .env .container .title a {
+    font-size: 3.5vw;
+    margin: 0 3vw;
+  }
+  .env .container img {
+    width: 40vw;
+    margin-top: 5vw;
+  }
+}
