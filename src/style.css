@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Myriad Apple";
+  src: url("Helper/fonts/MyriadApple-Text.eot");
+  src: url("Helper/fonts/MyriadApple-Text.eot?#iefix")
+      format("embedded-opentype"),
+    url("Helper/fonts/MyriadApple-Text.woff2") format("woff2"),
+    url("Helper/fonts/MyriadApple-Text.woff") format("woff"),
+    url("Helper/fonts/MyriadApple-Text.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Myriad Apple";
+}
+body {
+  font-family: "Myriad Apple";
+  margin: 0;
+  padding: 0;
+}

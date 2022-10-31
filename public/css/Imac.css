@@ -1,0 +1,112 @@
+.imac .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12vw 0;
+  animation: showContainer 2.5s ease;
+}
+.imac .container .title {
+  text-align: center;
+  line-height: 3.5vw;
+}
+.imac .container .title h2 {
+  color: #222;
+  font-size: 4vw;
+}
+
+.imac .container .title b {
+  color: #333;
+  font-size: 1.5vw;
+}
+
+.imac .container .title p {
+  color: #999;
+  font-size: 1.3vw;
+}
+
+.imac .container .title a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  margin: 0 1vw;
+  color: royalblue;
+}
+.imac .container .title a:hover {
+  text-decoration: underline;
+}
+
+.imac .container img {
+  width: 40vw;
+}
+@keyframes showContainer {
+  from {
+    transform: translateX(-100vh);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .imac .container {
+    padding: 15vw 0;
+  }
+
+  .imac .container .title {
+    line-height: 4.5vw;
+  }
+
+  .imac .container .title h2 {
+    font-size: 5vw;
+  }
+
+  .imac .container .title b {
+    font-size: 2.8vw;
+  }
+
+  .imac .container .title p {
+    font-size: 2vw;
+  }
+
+  .imac .container .title a {
+    margin: 0 1.5vw;
+    font-size: 2vw;
+  }
+
+  .imac .container img {
+    width: 50vw;
+    margin-top: 4vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imac .container {
+    flex-direction: column;
+    padding: 20vw 0;
+  }
+
+  .imac .container .title {
+    line-height: 8vw;
+  }
+
+  .imac .container .title h2 {
+    font-size: 8vw;
+  }
+
+  .imac .container .title b {
+    font-size: 3.8vw;
+  }
+
+  .imac .container .title p {
+    font-size: 3.2vw;
+  }
+
+  .imac .container .title a {
+    margin: 0 2vw;
+    font-size: 3vw;
+  }
+
+  .imac .container img {
+    width: 80vw;
+    margin-top: 6vw;
+  }
+}

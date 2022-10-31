@@ -1,0 +1,107 @@
+.watch .container {
+  background-color: #000;
+  width: 50%;
+  height: 45vw;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15vw 0;
+}
+
+.watch .container .title {
+  text-align: center;
+  line-height: 3.5vw;
+  animation: picOpacity 2s ease-in-out;
+}
+.watch .container .title h2 {
+  color: #f9f9f9;
+  font-size: 4vw;
+}
+
+.watch .container .title b {
+  color: red;
+  font-size: 1.5vw;
+}
+
+.watch .container .title p {
+  color: #999;
+  font-size: 1.3vw;
+}
+
+.watch .container .title a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  margin: 0 1vw;
+  color: royalblue;
+}
+.watch .container .title a:hover {
+  text-decoration: underline;
+}
+.watch .container img {
+  width: 15vw;
+  margin-top: 3vw;
+  animation: picOpacity 2s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+  .watch .container {
+    height: 60vw;
+  }
+
+  .watch .container .title {
+    line-height: 5vw;
+  }
+  .watch .container .title h2 {
+    font-size: 6vw;
+  }
+
+  .watch .container .title b {
+    font-size: 2vw;
+  }
+
+  .watch .container .title p {
+    font-size: 1.8vw;
+  }
+
+  .watch .container .title a {
+    font-size: 1.8vw;
+    margin: 0 1.5vw;
+  }
+
+  .watch .container img {
+    width: 18vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .watch .container {
+    width: 100%;
+    height: 120vw;
+  }
+
+  .watch .container .title {
+    line-height: 10vw;
+  }
+  .watch .container .title h2 {
+    font-size: 10vw;
+  }
+
+  .watch .container .title b {
+    font-size: 5vw;
+  }
+
+  .watch .container .title p {
+    font-size: 4vw;
+  }
+
+  .watch .container .title a {
+    font-size: 3.5vw;
+    margin: 0 3vw;
+  }
+  .watch .container img {
+    width: 35vw !important;
+    margin-top: 5vw;
+  }
+}

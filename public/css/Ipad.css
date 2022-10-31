@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+}
+
+.ipad .container {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5vw 0;
+}
+
+.ipad .container .title {
+  text-align: center;
+  animation: picOpacity 2s ease-in-out;
+  line-height: 3.5vw;
+}
+.ipad .container .title h2 {
+  color: #f9f9f9;
+  font-size: 4vw;
+}
+
+.ipad .container .title b {
+  color: #f1f1f1;
+  font-size: 1.5vw;
+}
+
+.ipad .container .title p {
+  color: #999;
+  font-size: 1.3vw;
+}
+
+.ipad .container .title a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  margin: 0 1vw;
+  color: royalblue;
+}
+.ipad .container .title a:hover {
+  text-decoration: underline;
+}
+
+.ipad .container img {
+  width: 50vw;
+  animation: picOpacity 2s ease-in-out;
+  margin-top: 3vw;
+}
+
+@keyframes picOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ipad .container {
+    padding: 7vw 0;
+  }
+
+  .ipad .container .title {
+    line-height: 4.5vw;
+  }
+
+  .ipad .container .title h2 {
+    font-size: 5vw;
+  }
+
+  .ipad .container .title b {
+    font-size: 2.8vw;
+  }
+
+  .ipad .container .title p {
+    font-size: 2vw;
+  }
+
+  .ipad .container .title a {
+    margin: 0 1.5vw;
+    font-size: 2vw;
+  }
+
+  .ipad .container img {
+    width: 60vw;
+    margin-top: 4vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ipad .container {
+    padding: 20vw 0;
+  }
+
+  .ipad .container .title {
+    line-height: 8vw;
+  }
+
+  .ipad .container .title h2 {
+    font-size: 8vw;
+  }
+
+  .ipad .container .title b {
+    font-size: 3.8vw;
+  }
+
+  .ipad .container .title p {
+    font-size: 3.2vw;
+  }
+
+  .ipad .container .title a {
+    margin: 0 2vw;
+    font-size: 3vw;
+  }
+
+  .ipad .container img {
+    width: 80vw;
+    margin-top: 6vw;
+  }
+}
