@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/apple/static/css/main.f382c39d.css",
-    "main.js": "/apple/static/js/main.0bf0f054.js",
+    "main.css": "/apple/static/css/main.4ceb9df1.css",
+    "main.js": "/apple/static/js/main.51534a91.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/apple/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/apple/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/apple/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/airtag.png": "/apple/static/media/airtag.ada923a82c6db98df82c.png",
+    "static/media/apple_watch.png": "/apple/static/media/apple_watch.fde668a266e4f0dfc42a.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/apple/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/ipadpro.png": "/apple/static/media/ipadpro.2ece9bc472b02a0698a0.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/apple/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/iMac.png": "/apple/static/media/iMac.bfb0f31db237262717dc.png",
+    "static/media/iPhone12.png": "/apple/static/media/iPhone12.3d55365451297b6d0775.png",
     "static/media/MyriadApple-Text.eot": "/apple/static/media/MyriadApple-Text.df3dae9cae7cf6d9bc9a.eot",
     "static/media/MyriadApple-Text.ttf": "/apple/static/media/MyriadApple-Text.c650fc557e0331e945f5.ttf",
+    "static/media/appletv.png": "/apple/static/media/appletv.ee427bbf47dd7b19cccc.png",
     "static/media/MyriadApple-Text.woff": "/apple/static/media/MyriadApple-Text.f3baa0b782c691e0c33a.woff",
     "static/media/MyriadApple-Text.woff2": "/apple/static/media/MyriadApple-Text.61c153257a0693f9ed59.woff2",
+    "static/media/Environment.png": "/apple/static/media/Environment.cf5cf40a7e38763d9771.png",
     "index.html": "/apple/index.html",
-    "main.f382c39d.css.map": "/apple/static/css/main.f382c39d.css.map",
-    "main.0bf0f054.js.map": "/apple/static/js/main.0bf0f054.js.map"
+    "main.4ceb9df1.css.map": "/apple/static/css/main.4ceb9df1.css.map",
+    "main.51534a91.js.map": "/apple/static/js/main.51534a91.js.map"
   },
   "entrypoints": [
-    "static/css/main.f382c39d.css",
-    "static/js/main.0bf0f054.js"
+    "static/css/main.4ceb9df1.css",
+    "static/js/main.51534a91.js"
   ]
 }
